@@ -1,0 +1,29 @@
+{
+    "otherStats": {
+      "Checks": {
+        "Passed": "2616",
+        "Failed": "0"
+      },
+      "Iterations": {
+        "Total": "327",
+        "Rate": "3.61/s"
+      },
+      "VirtualUsers": {
+        "Min": "1",
+        "Max": "4"
+      },
+      "Requests": {
+        "Total": "654",
+        "Rate": "7.21/s"
+      },
+      "DataReceived": {
+        "Total": "1.1 MB",
+        "Rate": "0.01 mB/s"
+      },
+      "DataSent": {
+        "Total": "0.14 MB",
+        "Rate": "0.0 mB/s"
+      }
+    }
+  }
+  

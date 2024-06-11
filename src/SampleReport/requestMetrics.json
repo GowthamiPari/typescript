@@ -1,0 +1,118 @@
+{
+    "requestMetrics": [
+
+      {
+        "Name": "http_req_duration",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "322.01",
+        "Maximum": "1047.02",
+        "Median": "314.31",
+        "Minimum": "290.22",
+        "90thPercentile": "338.64",
+        "95thPercentile": "358.11"
+      },
+      {
+        "Name": "http_req_waiting",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "321.12",
+        "Maximum": "1046.55",
+        "Median": "313.64",
+        "Minimum": "289.41",
+        "90thPercentile": "337.83",
+        "95thPercentile": "356.03"
+      },
+      {
+        "Name": "http_req_connecting",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "0.14",
+        "Maximum": "31.86",
+        "Median": "-",
+        "Minimum": "-",
+        "90thPercentile": "-",
+        "95thPercentile": "-"
+      },
+      {
+        "Name": "http_req_tls_handshaking",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "0.18",
+        "Maximum": "35.30",
+        "Median": "-",
+        "Minimum": "-",
+        "90thPercentile": "-",
+        "95thPercentile": "-"
+      },
+      {
+        "Name": "http_req_sending",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "0.14",
+        "Maximum": "1.01",
+        "Median": "-",
+        "Minimum": "-",
+        "90thPercentile": "0.53",
+        "95thPercentile": "0.55"
+      },
+      {
+        "Name": "http_req_receiving",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "0.75",
+        "Maximum": "46.48",
+        "Median": "0.49",
+        "Minimum": "-",
+        "90thPercentile": "0.99",
+        "95thPercentile": "1.06"
+      },
+      {
+        "Name": "http_req_blocked",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "0.75",
+        "Maximum": "325.49",
+        "Median": "-",
+        "Minimum": "-",
+        "90thPercentile": "-",
+        "95thPercentile": "-"
+      },
+      {
+        "Name": "iteration_duration",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "647.52",
+        "Maximum": "1696.26",
+        "Median": "632.96",
+        "Minimum": "588.91",
+        "90thPercentile": "684.52",
+        "95thPercentile": "725.43"
+      },
+      {
+        "Name": "group_duration",
+        "Count": "-",
+        "Rate": "-",
+        "Average": "323.75",
+        "Maximum": "1376.89",
+        "Median": "315.22",
+        "Minimum": "291.9",
+        "90thPercentile": "-",
+        "95thPercentile": "-"
+      }
+    ],
+    "customMetrics": [
+        {
+          "Name": "checks{statusCodeCheck:200}",
+          "Count": "-",
+          "Rate": "1.00",
+          "Average": "-",
+          "Maximum": "-",
+          "Median": "-",
+          "Minimum": "-",
+          "90thPercentile": "-",
+          "95thPercentile": "-"
+        }
+      ]
+  }
+  

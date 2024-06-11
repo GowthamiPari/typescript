@@ -1,0 +1,208 @@
+{
+    "totalRequests": "654",
+    "failedRequests": "0",
+    "breachedThresholds": "0",
+    "failedChecks": "0",
+    "requestMetrics": [
+          {
+            "name": "http_req_duration",
+            "count": "-",
+            "rate": "1.00",
+            "average": "322.01",
+            "maximum": "1047.02",
+            "median": "314.31",
+            "minimum": "290.22",
+            "90thPercentile": "338.64",
+            "95thPercentile": "358.11"
+          },
+          {
+            "name": "http_req_waiting",
+            "count": "-",
+            "rate": "1.00",
+            "average": "321.12",
+            "maximum": "1046.55",
+            "median": "313.64",
+            "minimum": "289.41",
+            "90thPercentile": "337.83",
+            "95thPercentile": "356.03"
+          },
+          {
+            "name": "http_req_connecting",
+            "count": "-",
+            "rate": "1.00",
+            "average": "0.14",
+            "maximum": "31.86",
+            "median": "-",
+            "minimum": "-",
+            "90thPercentile": "-",
+            "95thPercentile": "-"
+          },
+          {
+            "name": "http_req_tls_handshaking",
+            "count": "-",
+            "rate": "1.00",
+            "average": "0.18",
+            "maximum": "35.30",
+            "median": "-",
+            "minimum": "-",
+            "90thPercentile": "-",
+            "95thPercentile": "-"
+          },
+          {
+            "name": "http_req_sending",
+            "count": "-",
+            "rate": "1.00",
+            "average": "0.14",
+            "maximum": "1.01",
+            "median": "-",
+            "minimum": "-",
+            "90thPercentile": "0.53",
+            "95thPercentile": "0.55"
+          },
+          {
+            "name": "http_req_receiving",
+            "count": "-",
+            "rate": "1.00",
+            "average": "0.75",
+            "maximum": "46.48",
+            "median": "0.49",
+            "minimum": "-",
+            "90thPercentile": "0.99",
+            "95thPercentile": "1.06"
+          },
+          {
+            "name": "http_req_blocked",
+            "count": "-",
+            "rate": "1.00",
+            "average": "0.75",
+            "maximum": "325.49",
+            "median": "-",
+            "minimum": "-",
+            "90thPercentile": "-",
+            "95thPercentile": "-"
+          },
+          {
+            "name": "iteration_duration",
+            "count":"-",
+            "rate": "1.00",
+            "average": "647.52",
+            "maximum": "1696.26",
+            "median": "632.96",
+            "minimum": "588.91",
+            "90thPercentile": "684.52",
+            "95thPercentile": "725.43"
+          },
+          {
+            "name": "group_duration",
+            "count": "-",
+            "rate": "1.00",
+            "average": "323.75",
+            "maximum": "1376.89",
+            "median": "315.22",
+            "minimum": "291.9"
+          }
+    ],
+    "customMetrics": [
+      {
+        "name": "checks{statusCodeCheck:200}",
+        "count": "-",
+        "rate": "1.00",
+        "average": "-",
+        "maximum": "-",
+        "median": "-",
+        "minimum": "-",
+        "90thPercentile": "-",
+        "95thPercentile": "-"
+      }
+    ],
+    "otherStats": {
+      "checks": {
+        "passed": "2616",
+        "failed": "0"
+      },
+      "iterations": {
+        "total": "327",
+        "rate": "3.61"
+      },
+      "virtualUsers": {
+        "min":"1",
+        "max":"4"
+      },
+      "requests":{
+        "total": "654",
+        "rate": "7.21"
+      },
+      "dataReceived":{
+        "total": "1.10",
+        "rate": "0.01"
+      },
+      "dataSent":{
+        "total": "0.14",
+        "rate": "0.00"
+      }
+      
+    },
+    "checksGroups": [
+        {
+          "name": "GrowerOrder account-list-1",
+          "checks": [
+            {
+              "name": "status code should be 200",
+              "passes": "327",
+              "failures": "0"
+            },
+            {
+              "name": "response should have at least one item",
+              "passes": "327",
+              "failures": "0"
+            },
+            {
+              "name": "response should have account info with account number",
+              "passes": "327",
+              "failures": "0"
+            },
+            {
+              "name": "response should have account info with account name",
+              "passes": "327",
+              "failures": "0"
+            }
+          ]
+        },
+        {
+          "name": "GrowerOrder account-list-2",
+          "checks": [
+            {
+              "name": "status code should be 200",
+              "passes": "327",
+              "failures": "0"
+            },
+            {
+              "name": "response should have at least one item",
+              "passes": "327",
+              "failures": "0"
+            },
+            {
+              "name": "response should have account info with account number",
+              "passes": "327",
+              "failures": "0"
+            },
+            {
+              "name": "response should have account info with account name",
+              "passes": "327",
+              "failures": "0"
+            }
+          ]
+        }
+      ],
+      "otherChecks": {
+        "checks": [
+            {
+                "checkName":{
+                    "name":"",
+                    "passes":"",
+                    "failures":""
+                }
+            }
+        ]
+      }
+  }

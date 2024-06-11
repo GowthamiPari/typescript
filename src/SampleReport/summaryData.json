@@ -1,0 +1,41 @@
+{
+  "totalRequests": "654",
+  "failedRequests": "0",
+  "breachedThresholds": "0",
+  "failedChecks": "0",
+  "boxes": [
+    {
+      "title": "Total Requests",
+      "icon": "faGlobe",
+      "valueKey": "totalRequests"
+    },
+    {
+      "title": "Failed Requests",
+      "icon": "faTimes",
+      "valueKey": "failedRequests"
+    },
+    {
+      "title": "Breached Thresholds",
+      "icon": "faChartBar",
+      "valueKey": "breachedThresholds"
+    },
+    { "title": "Failed Checks", "icon": "faEye", "valueKey": "failedChecks" }
+  ],
+  "tabs": [
+    {
+      "key": "requestMetrics",
+      "icon": "faClock",
+      "label": "Request Metrics"
+    },
+    {
+      "key": "otherStats",
+      "icon": "faChartLine",
+      "label": "Other Stats"
+    },
+    {
+      "key": "checksGroups",
+      "icon": "faCheckSquare",
+      "label": "Checks & Groups"
+    }
+  ]
+}
