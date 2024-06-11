@@ -87,7 +87,8 @@ type StatBox = {
     values: { label: string; value: string }[];
 };
 
-function OtherStatsTab() {
+//function OtherStatsTab() {
+    const OtherStatsTab: React.FC = () =>  {
     const [data, setData] = useState<StatsData | null>(null);
 
     useEffect(() => { 
